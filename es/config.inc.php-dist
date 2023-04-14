@@ -1,0 +1,46 @@
+<?php
+
+/**
+ * Teknologiaplaneetta - Enterprise Solution
+ *
+ * @e-mail     matti.kiviharju@teknologiaplaneetta.com
+ *
+ * LICENSE: GNU GPL
+ *
+ * @copyright  2007 Teknologiaplaneetta
+ * @license    http://www.gnu.org/copyleft/gpl.html  GNU GPL Version 2
+ * @version    $Id$ 1.0.0
+ * @link       http://www.teknologiaplaneetta.com
+ * @since      File available since Release 1.0.0
+ */ 
+
+$configArray = array(
+    'portalname' => 'Teknologiaplaneetta - Enterprise Solution',
+	'urlprefix' => 'http://some.domain.tld/es/',
+	'defaultlang' => 'english',
+	'defaultlayout' => 'defaultblue',
+	'serverpath' => '/root/www/',
+	'layoutselector' => 1,
+	'ts' => mktime ( date("G")+0, date("i")+0, date("s")+0, date("m"), date("d"), date("y")),
+	'loadingscreencolor' => '#000000',
+    'database' => array(
+      'type'     => 'pdo_mysql',
+      'host'     => 'localhost',
+      'dbuser' => '',
+      'dbpasswd' => '',
+      'dbprefix'     => 'es',
+	  'database'     => ''
+	  
+    ),
+	  'security' => array(
+        'secretkey' => 'secretcode',
+		'id'     => 'SOME-ID-HERE',
+		'sessiondir'     => '',
+		'logdir'     => '',
+		'sessiontime' => 2000,
+		'cookiepath' => '/',
+		'cookiedomain' => ''
+	)
+);
+ 
+?>

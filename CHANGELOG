@@ -1,0 +1,10 @@
+0.0.3
+-databases structure fixes
+-back to moo.fx for better browser support
+-added some new files to template system core
+-changed config.inc.php to support Zend Framework config class
+0.0.2
+-changed moo.fx to mootools
+-fixes to php files
+0.0.1
+-
